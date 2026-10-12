@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Originne Cafés: cafés especiais de origem única, com grãos selecionados e torra artesanal.">
+    <meta name="theme-color" content="#4B2C20">
+    <title>Originne | Cafés Especiais</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header>
+        <div class="Cabecalho">
+            <a href="#home" class="logo-link" aria-label="Originne - voltar ao início">
+                <img src="img/Originne_Logo.png" alt="Originne" width="431" height="212">
+            </a>
+            <nav class="navegacao" aria-label="Navegação principal">
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#espaco">Espaço</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section id="home">
+            <div class="home-content">
+                <h1>Bem-vindo à Originne</h1>
+                <p class="home-text">Sua jornada pelo café especial começa aqui. Combinamos grãos selecionados das melhores fazendas com um processo artesanal de torra para entregar frescor e intensidade em cada xícara. Descubra o que torna a Originne única.</p>
+                <a href="#sobre" class="btn-main">Descubra a Origem</a>
+            </div>
+            <img src="img/COFFEE.jpg" alt="Três xícaras pretas vistas de cima: café moído, café com latte art e grãos torrados" width="735" height="1103" fetchpriority="high">
+        </section>
+
+        <section id="diferenciais" aria-label="Diferenciais da Originne">
+            <ul class="cards">
+                <li class="card-info">
+                    <span class="card-numero" aria-hidden="true">01</span>
+                    <h3>Grãos selecionados</h3>
+                    <p>Cafés das melhores fazendas, escolhidos grão a grão.</p>
+                </li>
+                <li class="card-info">
+                    <span class="card-numero" aria-hidden="true">02</span>
+                    <h3>Torra artesanal</h3>
+                    <p>Precisão no ponto da torra para realçar frescor e intensidade.</p>
+                </li>
+                <li class="card-info">
+                    <span class="card-numero" aria-hidden="true">03</span>
+                    <h3>Experiência sensorial</h3>
+                    <p>Do aroma ao último gole, um ritual diário que desperta os sentidos.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="sobre">
+            <h2>Nossa história Originne</h2>
+            <p>Na <span>Originne</span>, acreditamos que o café não é apenas uma bebida, mas o ponto de encontro entre a terra e o paladar. Nascemos da paixão pela busca do grão perfeito, respeitando o tempo da natureza e a dedicação de quem planta. Cada xícara conta uma história: desde a altitude das montanhas até a precisão da nossa <span>torra artesanal</span>. Nossa missão é despertar seus sentidos e transformar seu ritual diário em uma experiência sensorial única.</p>
+            <div class="frase-efeito">
+                Originne: onde o café volta às suas raízes.
+            </div>
+        </section>
+
+        <section id="produtos">
+            <h2>Nossos cafés</h2>
+            <p class="secao-sub">Três jeitos de começar o dia, todos em embalagens de 250 g.</p>
+            <div class="produtos-grid">
+                <article class="produto">
+                    <div class="produto-img">
+                        <img src="img/Produto.webp" alt="Embalagem Originne Cafés, Blend São Paulo, com colher de madeira" width="453" height="646" loading="lazy">
+                    </div>
+                    <h3>Blend São Paulo</h3>
+                    <p class="produto-detalhe">100% Arábica · Torra média</p>
+                    <p class="produto-desc">Café torrado em grãos, origem única e artesanal.</p>
+                </article>
+                <article class="produto">
+                    <div class="produto-img">
+                        <img src="img/Produto2.webp" alt="Embalagem branca Originne, café single origin do Espírito Santo" width="380" height="605" loading="lazy">
+                    </div>
+                    <h3>Single Origin Espírito Santo</h3>
+                    <p class="produto-detalhe">Em grãos · Notas de baunilha e flor de laranjeira</p>
+                    <p class="produto-desc">Delicado, aromático e perfeito para métodos filtrados.</p>
+                </article>
+                <article class="produto">
+                    <div class="produto-img">
+                        <img src="img/Produto3.webp" alt="Embalagem preta Originne, Vibrant Citrus, café do Cerrado Mineiro" width="426" height="621" loading="lazy">
+                    </div>
+                    <h3>Vibrant Citrus</h3>
+                    <p class="produto-detalhe">Arábica · Cerrado Mineiro</p>
+                    <p class="produto-desc">Notas de laranja, mel e limão em um café vibrante.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="espaco">
+            <div class="espaco-texto">
+                <h2>Nosso espaço</h2>
+                <p>Um lugar pensado para o seu ritual: luz quente, cheiro de café fresco e cada bebida preparada com cuidado, do espresso ao café gelado.</p>
+            </div>
+
+            <div class="carousel" role="region" aria-roledescription="carrossel" aria-label="Fotos do nosso espaço">
+                <div class="carousel-viewport">
+                    <figure class="slide ativo" aria-roledescription="slide" aria-label="1 de 3">
+                        <img src="img/espaco-maquina.jpg" alt="Espresso saindo da máquina para uma xícara" width="720" height="960" loading="lazy">
+                    </figure>
+                    <figure class="slide" aria-roledescription="slide" aria-label="2 de 3">
+                        <img src="img/espaco-cafeteria.jpg" alt="Café gelado sobre uma mesa de madeira em uma cafeteria aconchegante" width="640" height="853" loading="lazy">
+                    </figure>
+                    <figure class="slide" aria-roledescription="slide" aria-label="3 de 3">
+                        <img src="img/espaco-espresso.jpg" alt="Espresso fresco com vapor subindo da xícara" width="736" height="981" loading="lazy">
+                    </figure>
+                </div>
+                <div class="carousel-controles">
+                    <div class="carousel-botoes">
+                        <button type="button" class="carousel-btn" data-dir="-1" aria-label="Foto anterior">&#10094;</button>
+                        <button type="button" class="carousel-btn" data-dir="1" aria-label="Próxima foto">&#10095;</button>
+                    </div>
+                    <div class="carousel-dots" role="group" aria-label="Escolher foto">
+                        <button type="button" class="dot ativo" data-slide="0" aria-label="Foto 1" aria-current="true"></button>
+                        <button type="button" class="dot" data-slide="1" aria-label="Foto 2"></button>
+                        <button type="button" class="dot" data-slide="2" aria-label="Foto 3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <img class="footer-logo" src="img/Originne_Logo.png" alt="Originne" width="431" height="212" loading="lazy">
+            <div class="redes">
+                <a href="#" aria-label="Instagram da Originne"><img src="img/icons8-instagram-50.png" alt="" width="32" height="32"></a>
+                <a href="#" aria-label="WhatsApp da Originne"><img src="img/icons8-whatsapp-50.png" alt="" width="32" height="32"></a>
+                <a href="#" aria-label="Facebook da Originne"><img src="img/icons8-facebook-novo-50.png" alt="" width="32" height="32"></a>
+            </div>
+            <p>&copy; 2026 Originne. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
