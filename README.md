@@ -66,3 +66,5 @@ Os links das redes sociais no rodapé são de exemplo e podem ser substituídos 
 👨‍💻 Autor
 
 Desenvolvido por Gabriel Martinez como projeto de estudo em desenvolvimento web.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ed7b559d-14c3-4444-a3d4-dd6132a6f583/deploy-status?branch=main)](https://app.netlify.com/projects/originne/deploys)
